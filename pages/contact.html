@@ -8,20 +8,21 @@
     <title>Api-Melibox</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/4f510d4274.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js" defer></script>
 </head>
 
 <body>
     <header>
         <a href="../index.html">
-            <img id="logo-header" src="../images/api3.png"></img>
+            <img src="../images/api3.png"></img>
         </a>
-        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
-
-        <navbar class="nav" id="side-menu">
+        <navbar id="navbar" class="nav">
             <a href="../index.html">Api-Melibox</a>
             <a href="about.html">Acasă</a>
             <a href="products.html">Produse</a>
             <a href="contact.html">Contacte</a>
+            <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
         </navbar>
     </header>
     <div class="page-container">
@@ -32,8 +33,8 @@
             </div>
         </section>
 
-        <main>
-            <h2 class="title">Contacte</h2>
+        <main class="contact">
+            <h1 class="title">Contacte</h1>
             <div class="row">
                 <div class="col-50">
                     <h3>Contatează-ne dacă:</h3>
@@ -47,7 +48,7 @@
                 <div class="col-50">
                     <h3> Date de contact:</h3>
                     <ul class="contact-list">
-                        <li> <b>Adresa:</b> s. Baimaclia, r-nul Căușeni, str. Viilor, nr.13;<br> apimelibox@gmail.com</li>
+                        <li> <b>Adresa:</b> s. Baimaclia, r-nul Căușeni, str. Viilor, nr.13</li>
                         <li> <b>Telefon:</b> 0 243 60 402 ; +373 68 109 888 </li>
                         <li>
                             <b>Pagina de Facebook:</b>
@@ -76,7 +77,7 @@
                     </div>
                 </div>
             </div>
-
+            <div class="button"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
         </main>
     </div>
 
@@ -84,7 +85,7 @@
         <img src="../images/api2.png">
         <h5>Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului ©️ </h5>
     </footer>
-    <script src="js/main.js"></script>
+
 </body>
 
 </html>

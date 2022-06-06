@@ -8,20 +8,21 @@
     <title>Api-Melibox</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/4f510d4274.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js" defer></script>
 </head>
 
 <body>
     <header>
         <a href="../index.html">
-            <img id="logo-header" src="../images/api3.png"></img>
+            <img src="../images/api3.png"></img>
         </a>
-        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
-
-        <navbar class="nav" id="side-menu">
+        <navbar id="navbar" class="nav">
             <a href="../index.html">Api-Melibox</a>
             <a href="about.html">Acasă</a>
             <a href="products.html">Produse</a>
             <a href="contact.html">Contacte</a>
+            <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
         </navbar>
     </header>
     <div class="page-container">
@@ -34,7 +35,7 @@
         </section>
 
         <main>
-            <h2 class="title">Serviciile noastre</h2>
+            <h1 class="title">Serviciile noastre</h1>
 
             <div>
                 <h2>Care sunt avantajele stupilor din poliuretan?</h2>
@@ -86,19 +87,29 @@
                         Preț: 240 Lei
                     </p>
                 </div>
+                <div class="card">
+                    <img src="../images/soclu.png">
+                    <h3>Soclu</h3>
+                    <p>
+                        Preț: 155 Lei
+                    </p>
+                </div>
                 <div class="card-1">
                     <img src="../images/stupipe10rame.jpg">
 
                 </div>
+                <div class="card-1">
+                    <img src="../images/stupipe6rame.jpg">
+                </div>
             </div>
-
+            <div class="button"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
         </main>
     </div>
     <footer>
         <img src="../images/api2.png">
         <h5>Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului ©️ </h5>
     </footer>
-    <script src="js/main.js"></script>
+
 
 </body>
 
