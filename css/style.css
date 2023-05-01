@@ -9,7 +9,7 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background: gray;
+        background: rgb(118, 118, 118);
         border-radius: 8px;
     }
 
@@ -19,10 +19,6 @@
         background: linear-gradient(rgba(255, 251, 201, 0.84), #8686867c);
     }
 
-    .pers{
-        font-size: 35px;
-        color:rgb(160, 9, 9);
-    }
     body {
         margin: 0;
         font-family: "Kanit";
@@ -39,12 +35,17 @@
     h3 {
         font-family: "Kanit";
         font-size: 1.5rem;
+        margin-left: 60px;
     }
 
 
+ul {
+
+    margin-left: 60px;
+}
     header {
         padding: 7px 5px 4px 5px;
-        background-color: #8686867c;
+        background-color: #7979797c;
         position: fixed;
         z-index: 2;
         width: 100%;
@@ -258,7 +259,7 @@
         width: 100%;
         background-color: #ebebeb;
         border-radius: 10px;
-        border: 2px solid #ffd104;
+        border: 2px solid #989898;
         max-width: 500px;
         padding: 5px 15px 30px 15px;
     }
@@ -380,7 +381,7 @@
 
     footer {
         min-height: 35px;
-        background-color: #c2a11046;
+        background-color: #44444446;
         color: rgba(20, 3, 3, 0.753);
         width: 100%;
         padding: 5px 10px 10px 10px;
@@ -633,3 +634,4 @@
             color: rgb(255, 255, 255);
         }
     }
+  
