@@ -19,6 +19,10 @@
         background: linear-gradient(rgba(255, 251, 201, 0.84), #8686867c);
     }
 
+    .pers{
+        font-size: 35px;
+        color:rgb(160, 9, 9);
+    }
     body {
         margin: 0;
         font-family: "Kanit";
